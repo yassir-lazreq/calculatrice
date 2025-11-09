@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatrice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl font-bold text-center mb-8 text-blue-600">Calculatrice JavaScript</h1>
+        <p class="text-center text-gray-600 mb-8">
+            Une simple calculatrice réalisée avec HTML, CSS (Tailwind CSS) et JavaScript.
+        </p>
+
+
+
+        <!-- Exercice 1: Calculatrice -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <div class="max-w-xs mx-auto">
+
+                <input type="text" id="calcDisplay"
+                    class="w-full bg-gray-200 text-right text-2xl p-4 mb-4 rounded-lg font-mono" readonly>
+                <div class="grid grid-cols-4 gap-2">
+
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="7">7</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="8">8</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="9">9</button>
+                    <button class="calc-btn bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg font-bold"
+                        data-value="/">÷</button>
+
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="4">4</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="5">5</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="6">6</button>
+                    <button class="calc-btn bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg font-bold"
+                        data-value="*">×</button>
+
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="1">1</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="2">2</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="3">3</button>
+                    <button class="calc-btn bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg font-bold"
+                        data-value="-">−</button>
+
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value="0">0</button>
+                    <button class="calc-btn bg-gray-300 hover:bg-gray-400 p-4 rounded-lg font-bold"
+                        data-value=".">.</button>
+                    <button class="calc-btn bg-red-500 hover:bg-red-600 text-white p-4 rounded-lg font-bold"
+                        data-value="C">C</button>
+                    <button class="calc-btn bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg font-bold"
+                        data-value="+">+</button>
+
+                    <button id="calcEqual"
+                        class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-lg font-bold col-span-4">=</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="calcul.js"></script>
+
+</body>
+
+</html>
