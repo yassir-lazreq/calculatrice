@@ -15,8 +15,7 @@ Une calculatrice simple en ligne de commande écrite en JavaScript .
 
 - Clonez ce dépôt ou téléchargez les fichiers.
 
-```git clone https://github.com/yassir-lazreq/calculatrice.git
-```
+``git clone https://github.com/yassir-lazreq/calculatrice.git``
 
 ## structure des fichiers
 - `calcul.html` : Le fichier HTML principal contenant la structure de la calculatrice.
@@ -25,4 +24,4 @@ Une calculatrice simple en ligne de commande écrite en JavaScript .
 
 ## live demo
 
-- [Live Demo](https://yassir-lazreq.github.io/calculatrice/)
+- [Live Demo](https://yassir-lazreq.github.io/calculatrice/calcul.html)
